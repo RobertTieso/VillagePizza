@@ -1,18 +1,77 @@
-
+/** Website template by freewebsitetemplates.com **/
 body {
 	margin:0;
-	padding:0;
+	padding:25px;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 	line-height: 25px;
 	color:#fff;
 	text-align: justify;
-	background:url('../images/bg-body.gif') repeat top center;
+	background:url('../images/checker.gif') repeat top center;
 }
+ul{
+	list-style: none;
+	text-decoration: none;
+}
+.menu {
+font-family: 'Coming Soon', cursive;
+color:rgb(201, 0, 0)
+}
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #e67a73;
+	-webkit-box-shadow: 0px 10px 14px -7px #e67a73;
+	box-shadow: 0px 10px 14px -7px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+ .navbar {
+	 padding: 5px;
+ }
+
+#buttonr {
+	float:right;
+	padding-top: 60px;
+	padding-left: 25px
+
+
+
+
+
+}
+#buttonl {
+	float: left;
+	padding-top: 60px;
+	padding-right: 25px;
+}
+
+#logo {
+	padding-left: 70px;
+}
+
 #background {
-	background: url("../images/header-bg2.gif");
+	background: url("../images/tan1.gif");
 	background-repeat:repeat-x;
-	margin:0;
+	margin:0;but
 	padding:0;
 }
 #background #page #header {
@@ -21,8 +80,6 @@ body {
 	margin:0 auto;
 	padding:0;
 	position:relative;
-	
-
 }
 #background #page #header ul.navigation {
 	padding:100px 0 0 20px;
@@ -39,7 +96,7 @@ body {
 	line-height:49px;
 }
 #background #page #header ul.navigation li a {
-	background: url("../images/menu.gif");
+	background: url("#");
 	background-position: 0 -198px;
 	color: #563F1F;
 	display: block;
@@ -56,7 +113,7 @@ body {
 	text-decoration:none;
 	display:block;
 	color:#563f1f;
-	background: url("../images/menu.gif");
+	background: url("#");
 	background-position: 0 0;
 	font-family:Georgia, serif;
 	font-weight:bold;
@@ -142,7 +199,7 @@ body {
 	overflow:hidden;
 }
 #background #page #body .slider ul li.first a {
-	background: url("../images/button.gif");
+	background: url("#");
 	background-position: 0 -61px;
 	width:217px;
 	height:35px;
@@ -253,7 +310,7 @@ body {
 	color:#5b2f01;
 }
 #background #page #body .section p a.more {
-	background: url("../images/button.gif");
+	background: url("#");
 	background-position: 0 0;
 	width:8px;
 	height:11px;
@@ -590,7 +647,7 @@ body {
 }
 #background .page #body {
 	overflow:hidden;
-	background:url('../images/bg-body.gif') repeat top center;
+	background:url('#') repeat top center;
 	padding:40px 0 0 0;
 }
 #background .page #body .content {
@@ -602,7 +659,7 @@ body {
 	padding-top:6px;
 }
 #background .page #body .content .body {
-	background: url("../images/bg-content-bottom.gif");
+	background: url("../images/bg-blue1.gif");
 	background-repeat:no-repeat;
 	background-position:center bottom;
 	background-color:#f8f0d9;
